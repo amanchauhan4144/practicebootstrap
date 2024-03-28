@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+.hr{
+  width: 1.2rem;
+  background-color: grey;
+  height: 1px;
+}
+.introSlider
+{
+  top: 40%;
+  left: 3%;
+  position: absolute;
+}
+
+.introSlider div {
+  width: 3rem;
+  border: 2px solid #0cd7f7;
+  color: #0cd7f7;
+  text-align: center;
+  margin-bottom: 23%;
+  padding: 14%;
+}
+
+.intoLeftSlider{
+  border: 1px solid teal;
+  color: #0cd7f7;
+  margin-bottom: 2rem;
+}
+
+.introRightSlider{
+  border: 1px solid teal;
+  color: #0cd7f7;
+  width: 9rem;
+}
+.introSlider div:hover,.intoButton button:hover
+{
+ border-color: white;
+ color:black; 
+ background-color: white;
+ cursor: pointer;
+}
+
+.introDate{ 
+  position: absolute;
+  bottom: 51px;
+  left: 32px;
+  color: grey;
+  letter-spacing: 2px;
+}
+
+.introDatetwo{
+  position: absolute;
+  bottom: 80%;
+  left: 90%;
+  color: grey;
+  letter-spacing: 2px;
+}
+
+.middle{
+ padding-left: 3rem;
+ padding-top: 0.2rem;
+}
+
+.custom-navbar-ul li a{
+  padding-right: 1.5rem;
+  color: white;
+}
+
+.custom-navbar-li a{
+  color: white;
+  padding-right: 1.5rem;
+}
+
+.navbar-brand-right{
+    text-decoration: none;
+    font-size: 2.4rem;
+}
+
+.navbar-brand img{
+  width: 2rem;
+  height: 2rem;
+}
+
+#navbarNav{
+  margin-left: 4rem;
+}
+
+.logoName{
+  font-size: 1.8rem;
+}
+
+.navbar-brand div{
+  font-size: 1rem;
+  font-weight: 700;
+  padding-top: 0.1rem;
+}
+
+.introContainer{
+  background-image: url(./images/layer_1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: right 40% bottom 1.3rem ;
+position: relative;
+color: white;
+
+}
+
+a.items{
+  padding-right: 2.5rem;
+}
+
+#containerintro{
+  padding-top: 15%;
+  padding-left: 6%;
+  padding-bottom: 25%;
+  width: 80%;
+}
+.aboutUs{
+  background-color: #f7672c;
+  border: none;
+  color: white;
+  width: 32%;
+}
+
+.donateNow{
+  background-color: white;
+  border: none;
+  color: black;
+}
+
+span{
+  color: skyblue;
+  font-weight: bold;
+}
+
+.introHeading{
+  line-height: 1;
+  font-family: 'poppins';
+  font-size: 4rem;
+  padding-top: 1rem;
+}
+
+.introPlayButton img{
+  width: 8%;
+}
+.playButton{
+  left: 65%;
+  position: absolute;
+  width: 0.2rem;
+    border-radius: 50%;
+}
+.playButton:hover
+{  
+    border: 15px solid rgba(255, 255, 255, 0.35); /* Opaque border */
+    outline: 15px solid  rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.aboutourbirdscontain{
+  width: 47%;
+}
+
+.newBirds{
+  color: green;
+  padding-top: 7%;
+}
+
+span:last-child{
+  color: orange;
+}
+
+span:nth-child(1){
+ font-weight: 600;
+}
+
+.newBirdsPara{
+  padding-left: 0rem;
+  font-size: 0.8rem;
+  width: 70%;
+}
+
+.birdCard{ 
+width: 28%;
+height: 40%;
+border: 1px solid green;
+padding-bottom: 3rem;
+}
+
+.animalscontainer{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 4%;
+
+}
+
+.animalcards{
+  width: 83%;
+  display: flex;
+  justify-content: center;
+}
+
+.imageofanimal{
+  width: 39%;
+  height: 49%;
+}
+
+.cardindividual{
+  width: 17%;
+}
+
+.animalimage{
+  height: 11rem;
+  border: 2px solid lightgrey; 
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+  transform-style: preserve-3d;
+}
+.animalimage:hover{
+    background-color: transparent;
+    opacity: 0.3;
+    transform: perspective(500px) rotateY(180deg);
+    animation: rotateAnimation 1.4s linear infinite;
+
+}
+
+
+@keyframes rotateAnimation {
+	from {transform: rotateY(45deg);}
+	to {transform: rotateY(225deg);}
+}
+
+.arrowleft ,.arrowright{
+  margin-bottom: 2%;
+  background-color: white;
+  padding: 0.5% 1.4% 0.8%  1.2%;
+  border: 1.5px solid grey;
+}
+.arrowleft:hover ,.arrowright:hover{
+  background-color: transparent;
+  opacity: 0.3;
+  color: white;
+}
+
+.aboutbirds{
+  border: 1px solid black;
+}
+.aboutbirds{
+ width: 80%;
+ 
+}
+.aboutbirdsouter{
+  width: 100%;
+  background-image: url(./images/rectangle_8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:  left top;
+  color: white;
+}
+
+.newbirdHeading{
+  color: black;
+  font-weight: 700;
+}
+.orangespan{
+  color: #f7672c;
+}
+
+.aboutSubtext{
+  text-align: justify;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.readMore{
+ width: 28%;
+ padding: 0.35rem  0.1rem  0.45rem  4%;
+ background-color:  #f7672c;
+}
+.readMore:hover,.seeMoreButton:hover,.subscribeButton:hover {
+  color: black;
+  background-color: white;
+}
+.senddown:hover{
+  color: white;
+  background-color: black;
+}
+
+.seeMoreButton{
+  width: 11%;
+ padding: 0.35rem  0.1rem  0.45rem  2.7%;
+ background-color:  #f7672c;
+ color: white;
+}
+#ourbirdscolortext{
+  color:skyblue ;
+}
+.ourBirdsPara{
+  width: 80%;
+  font-size: 0.8rem;
+}
+.aboutSubtext{
+  width: 25rem;
+}
+.collage{
+  /* border: 1.5px solid darkgreen; */
+  width: 74%;
+  padding-top: 7%;
+}
+.outerCollage{
+  background-color: #eeeeee;
+  padding-bottom: 4%;
+}
+.secondcol{
+  height: 34.2rem;
+}
+.thirdcol{
+  height: 33.7rem ;
+}
+
+.imagelove{
+  position: relative;
+  display: inline-block;
+}
+.imagelove .overlay-content{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+  text-align: center;
+}
+
+.imagelove:hover::before {
+  content:"";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .5); 
+  z-index: 1;
+  transition: background-color 0.3s ease; 
+}
+
+.imagelove:hover .overlay-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blacktestimonialcard{
+  padding-left: 16%;
+}
+.testimonialpara{
+  font-size: .8rem;
+  line-height: 30px;
+  color: #b4b4b4;
+  text-align:left;
+}
+
+.subscribe{
+  width:71% ;
+  margin-right: 16%;
+}
+
+.testimonial{
+  position: relative;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  margin-left: 8%;
+
+}
+.blacktestimonialcontainer{
+  width: 56%;
+}
+.rightclose{
+  text-align: end;
+}
+.threedotsare{
+  width: 70%;
+}
+.emailText{
+  font-size: 0.8rem;
+}
+
+.newBirdsParatemp{
+  display: none;
+}
+
+.testing{
+  width: 87%;
+}
+.userimageTemp{
+  display: none;
+   
+}
+.userimage img{
+  width: 9rem;
+    height: 11.5rem;
+    position: absolute;
+    left: 15%;
+    top: 28%;
+    z-index: 1;
+}
+.testimonialborder{
+  width: 10.2rem;
+    height: 9.5rem;
+    position: absolute;
+    left: 14.2%;
+    top: 35.7%;
+    z-index: 0;
+    background-color: #f7672c;
+}
+
+.subscribe{
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+.subscribeButton{
+  color: white;
+  background-color: #f7672c;
+  width: 22%;
+  padding-left: 6.2%;
+  margin-left: 11.3%;
+  
+}
+.subscribeHeading{
+  padding-left: 0;
+
+}
+.emailText{
+  display: flex;
+  vertical-align: text-bottom ;
+  align-items: center;
+}
+.emailrow{
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+.skyblue{
+  color: skyblue;
+}
+.ourBirdsUpper{
+  padding-bottom: 18%;
+  
+}
+.lastformsection{
+  display: flex;
+    justify-content:center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+background-image  : url('./images/birdsflying.png'),url('./images/maps.png');
+    background-repeat: no-repeat,no-repeat;
+    background-position: left 0 top 0, left 0 top 10rem; /* Adjusted position for the second image */
+    background-size: 100% 20%, 100% 80%; 
+}
+
+input[type="text"]{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.formContainer{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.formContainer input 
+{
+ background-color: white;
+ margin: 4% 0;
+ border-bottom: 1px solid #f7672c;
+ width: 100%;
+ color: black;
+}
+
+.formSection{
+  width: 47%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.02), 0 0 0 20px rgba(0, 0, 0, 0.0001);
+}
+
+.info{
+  width: 40%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.375rem;
+}
+.copyright{
+  font-size: 0.9rem;
+  margin-top: 1rem ;
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+}
+.straightline{
+  width: 33rem;
+  margin-top: 5%;
+  height: 1px;
+  margin-left: 2%;
+  background-color:white ;
+}
+.infoText{
+  font-size: 0.8rem;
+}
+
+ .mapLogo{
+  height: 1.3rem;
+}
+
+.phoneLogo{
+  height: 1.3rem;
+}
+
+.fgLogo{
+  height: 0.9rem;
+  padding-right: 0.67rem;
+}
+.senddown{
+  width: 39%;
+  text-align: center;
+ padding: 0.2rem  0.3rem  0.3rem  1.6%;
+ background-color:  #f7672c;
+ color: white;
+} 
+
+.formContainer input{
+  background-color: white;
+    margin: 0% 0;
+    border-bottom: 1.3px solid #f7672c;
+    width: 100%;
+    color: black;
+}
+
+.formContainer input::placeholder {
+  color: black; 
+  font-size: 0.9rem;
+}
+.testimonialbird{
+  padding-bottom: 2%;
+  padding-right: 7%;
+}
+.aboutus{
+  width:2.5rem ;
+  width: 37%;
+}
+
+.donateNow{
+  width: 33%;
+}

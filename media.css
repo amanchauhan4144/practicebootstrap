@@ -1,0 +1,166 @@
+@media (max-width: 576px) { /* Adjust breakpoint for mobile devices */
+    .straightline {
+        /* transform: translateX(20%); */
+        max-width: 76%;
+        margin-left: 10%;
+         /* Reduce maximum width on smaller screens */
+    }
+      .introSlider ,.introDate,.playButton,.introDatetwo ,.donateNow{
+        display: none;
+      }
+     .copyright{
+        max-width: 80%;
+        margin-left: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .contactinfoscontent{
+        max-width: 100%;
+    }
+
+    .formSection{
+        width: 100%;
+    }
+    .formContainer{
+        width: 89%;
+    }
+
+    .senddown{
+        margin-left: 31%;
+    }
+    .info{
+        width: 88%;
+        display: flex;
+        justify-content: center;
+    }
+    .infoText{
+        display: none;
+        padding-right: 20%;
+    }
+    .ourBirdsUpper {
+        padding-bottom: 12%;
+    }
+    .subscribeHeading{
+        text-align: center;
+        font-size: 1.9rem;
+        padding-left: 0;
+    }
+    .emailText{
+     width: 86%;
+     font-size: 1.2rem;
+     margin-left: 10%;
+    }
+    .emailrow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: none;
+    }
+    .subscribeButton {
+        color: white;
+        background-color: #f7672c;
+        width: 53%;
+        margin-top: 5%;
+        margin-left: 2.3%;
+        padding-left: 5%;
+    }
+
+    .collage{
+        border: 1.5px solid darkgreen;
+    }
+    .blacktestimonialcontainer{
+        width: 94%;
+    }
+    .userimage, .testimonialborder{
+        display: none;
+    }
+    .userimageTemp{
+        display: block;
+       padding-top: 10%;
+        top: 10;
+    }
+    .blacktestimonialcard{
+        padding-left: 11%;
+        text-align: justify;
+    }
+    .seeMoreButton{
+        width: 27%;
+    }
+    .outerCollage{
+        padding-bottom: 11%;
+    }
+    .collage{
+        width: 94%;
+        padding-top: 4%;
+        padding-bottom: 3%;
+    }
+    .birdone ,.birdthree , .birdfour ,.birdfive , .birdsix{
+        margin-bottom: 5%;
+    }
+
+    .birdtwo{
+        height: 36%;
+    }
+
+    .birdfour{
+        height: 93%;
+    }
+
+   .testimonial{
+    margin-left: 0%;
+   }
+    .aboutbirds{
+        margin-left: 0.8rem;
+        width: 93%;
+        padding-bottom: 10%;
+    }
+    .readMore{
+            width: 73%;
+            padding: 5.5% 5.5% ;
+            margin-left: 78%;
+            background-color: #f7672c;
+    }
+    .aboutSubtext{
+        padding-bottom: 14%;
+        width: 20rem;
+    }
+    .upperheading{
+        margin-left: 38%;
+        width: 14rem;
+    }
+    .redrobin{
+        margin-left: 20%;
+        margin-top: 10%;
+        height: 80%;
+        width: 60%;
+        display: none;
+    }
+
+    .cardindividual:nth-child(even){
+        display: none;
+    }
+    .cardindividual{
+        width: 54%;
+    }
+    .animalcards{
+        width: 92%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .animalimage{
+        width: 11rem;
+    }
+     .newBirdsParatemp{
+           display: block;
+     }
+  .testimonialbird{
+    padding-right: 2%;
+  }
+    .arrowleft , .arrowright{
+        display: none;
+    }
+}
